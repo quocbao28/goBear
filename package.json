@@ -1,0 +1,22 @@
+{
+  "name": "gauge-ts-template",
+  "version": "0.0.1",
+  "description": "Starter template for writing TypeScript tests for Gauge",
+  "scripts": {
+    "e2e": "node test/e2e/runner.js",
+    "test:gauge": "gauge run ./specs/",
+    "test": "npm run unit && npm run e2e"
+  },
+  "dependencies": {
+    "@getgauge/cli": "latest",
+    "gauge": "^2.7.4",
+    "gauge-ts": "latest",
+    "taiko": "^1.0.0",
+    "ts-node": "latest",
+    "typescript": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "chai": "^4.2.0"
+  }
+}
